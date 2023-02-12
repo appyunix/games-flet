@@ -31,11 +31,9 @@ class AppTitle(UserControl):
                             Text(
                                 value="Dice",
                                 size=28,
-                                font_family="Poppin-medium"
                             ),
                             Text(
                                 value="Rules",
-                                font_family="Poppin-medium"
                             )
                         ],
                         alignment=MainAxisAlignment.SPACE_BETWEEN
