@@ -8,10 +8,10 @@ def main(page: Page):
     page.vertical_alignment = MainAxisAlignment.START
     page.horizontal_alignment = CrossAxisAlignment.CENTER
     page.theme_mode = ThemeMode.LIGHT
-    page.theme = Theme(font_family="Poppin-medium")
-    page.fonts={
-        "Poppin-medium" : "/font/Poppins-Medium.ttf"
-    }
+#     page.theme = Theme(font_family="Poppin-medium")
+#     page.fonts={
+#         "Poppin-medium" : "/font/Poppins-Medium.ttf"
+#     }
 
     def route_change(route):
         print(page.route)
@@ -29,4 +29,4 @@ def main(page: Page):
 
     # // route temp 
     
-app(target=main, view=WEB_BROWSER, assets_dir="assets", web_renderer="html")
+app(target=main, view=WEB_BROWSER, web_renderer="html")
